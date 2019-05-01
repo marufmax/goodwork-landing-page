@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-indigo-darkest text-white">
-    <div class="container mx-auto flex flex-row justify-between py-16">
-      <div class="w-96">
+    <div class="container mx-auto flex flex-col lg:flex-row justify-between py-16 px-4">
+      <div class="lg:w-96">
         <div class="flex flex-row items-center">
           <g-image src="~/assets/images/logo-white-bg.svg" class="h-8 w-8"/>
           <div class="text-white text-xl font-semibold pl-2 uppercase tracking-wide">Goodwork</div>
@@ -10,20 +10,20 @@
           Goodwork is a self hosted project management and collaboration tool for all kind of teams.
         </div>
       </div>
-      <div class="flex flex-row">
-        <div class="px-4 mx-4 flex flex-col">
+      <div class="flex flex-col lg:flex-row">
+        <div class="px-4 py-4 lg:py-0 mx-4 flex flex-col border-b lg:border-0">
           <a href="" class="text-blue-lightest no-underline py-1 font-medium">What is Goodwork?</a>
           <a href="" class="text-blue-lightest no-underline py-1 font-medium">How It Works?</a>
           <a href="" class="text-blue-lightest no-underline py-1 font-medium">FAQ</a>
           <a href="" class="text-blue-lightest no-underline py-1 font-medium">Releases</a>
         </div>
-        <div class="px-4 mx-4 flex flex-col">
+        <div class="px-4 py-4 lg:py-0 mx-4 flex flex-col border-b lg:border-0">
           <a href="" class="text-white no-underline py-1 font-medium">Issues</a>
           <a href="" class="text-white no-underline py-1 font-medium">Changelog</a>
           <a href="" class="text-white no-underline py-1 font-medium">Join Slack</a>
           <a href="" class="text-white no-underline py-1 font-medium">Join Goodwork Project</a>
         </div>
-        <div class="px-4 mx-4 flex flex-col">
+        <div class="px-4 pt-4 lg:pt-0 mx-4 flex flex-col lg:border-0">
           <a href="" class="text-white no-underline py-1 font-medium">Contributing</a>
           <a href="" class="text-white no-underline py-1 font-medium">Knowledge Base</a>
           <a href="" class="text-white no-underline py-1 font-medium">Developer Guide</a>

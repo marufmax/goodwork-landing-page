@@ -1,18 +1,23 @@
 <template>
   <nav :class="navbarBG">
-    <div class="flex flex-row justify-between items-center mx-32 h-16">
+    <div class="flex flex-row justify-between items-center mx-2 lg:mx-32 h-16">
       <div class="flex flex-row items-center">
         <a href="/goodwork">
           <g-image src="~/assets/images/logo-white-bg.svg" class="h-10 w-10"/>
         </a>
-        <a href="/goodwork" class="text-white text-2xl font-semibold pl-2 uppercase no-underline">Goodwork</a>
-        <div class="bg-teal-dark ml-4 px-3 py-1 rounded-full text-white text-xs font-semibold tracking-wide">v0.9</div>
+        <a href="/goodwork" class="hidden lg:block text-white text-2xl font-semibold pl-2 uppercase no-underline">Goodwork</a>
+        <div class="hidden lg:block bg-teal-dark ml-4 px-3 py-1 rounded-full text-white text-xs font-semibold tracking-wide">v0.9</div>
       </div>
-      <div class="flex flex-row items-center justify-center text-lg">
+
+      <div @click="showMobileMenu" class="pr-2 cursor-pointer lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 text-white"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+      </div>
+
+      <div class="hidden lg:flex flex-row items-center justify-center text-lg">
         <g-link to="/goodwork/how-it-works" class="no-underline px-4 text-white">How It Works</g-link>
 
         <div class="px-4">
-          <div id="developer-menu" class="text-white list-reset cursor-default">Developers</div>
+          <div id="developer-menu" class="text-white cursor-default">Developers</div>
           <div id="developer-dropdown" class="absolute pt-2">
             <div class="bg-white rounded shadow-lg px-6 py-4">
               <div class="w-2 h-2 mt-1 bg-white absolute pin-t arrow"></div>
@@ -41,6 +46,19 @@
         </a>
       </div>
     </div>
+
+    <div v-if="mobileMenuShown" class="lg:hidden fixed w-full h-full bg-black pin">
+      <div @click="closeMobileMenu" class="p-4 absolute pin-r cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-white w-8"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+      </div>
+      <div class="flex flex-col justify-center h-full px-6">
+        <g-link to="/goodwork/how-it-works" class="no-underline py-2 text-white text-xl">How It Works</g-link>
+        <a href="https://github.com/iluminar/goodwork" class="no-underline py-2 text-white text-xl">Developer Guide</a>
+        <a href="https://github.com/iluminar/goodwork" class="no-underline py-2 text-white text-xl">Contributors</a>
+        <g-link to="/goodwork/sponsors" class="no-underline py-2 text-white text-xl">Sponsors</g-link>
+        <a href="https://github.com/iluminar/goodwork" class="no-underline py-2 text-white text-xl">Github</a>
+      </div>
+    </div>
   </nav>
 </template>
 
@@ -49,6 +67,17 @@ export default {
   props: {
     navbarBG: {
       type: String
+    }
+  },
+  data: () => ({
+    mobileMenuShown: false
+  }),
+  methods: {
+    showMobileMenu () {
+      this.mobileMenuShown = true
+    },
+    closeMobileMenu () {
+      this.mobileMenuShown = false
     }
   }
 }

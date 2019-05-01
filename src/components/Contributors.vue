@@ -1,7 +1,7 @@
 <template>
   <section class="">
-    <div class="container mx-auto py-16 flex flex-row items-center">
-      <div>
+    <div class="container mx-auto py-16 flex flex-row items-center justify-center">
+      <div class="lg:w-1/2 hidden lg:flex">
         <g-image src="~/assets/images/developer_activity.svg" class="w-128 h-128"/>
       </div>
 
@@ -25,7 +25,7 @@
                 <img :src="contributor.avatar_url" alt="" class="w-12 h-12 rounded-full shadow-lg">
             </a>
           </div>
-          <div class="flex flex-row flex-wrap justify-center pb-2 w-128">
+          <div class="flex flex-row flex-wrap justify-center pb-2 lg:w-128">
             <a :href="contributor.html_url" v-if="contributor.contributions < 10 && contributor.contributions > 4" v-for="contributor of contributors" class="m-2 rounded-full flex items-center shadow-md" :title="contributor.login">
               <img :src="contributor.avatar_url" alt="" class="w-8 h-8 rounded-full">
             </a>
