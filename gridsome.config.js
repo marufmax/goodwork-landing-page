@@ -11,7 +11,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-tailwindcss',
       options: {
-        config: './tailwind.js'
+        config: './tailwind.config.js'
       }
     }
   ],

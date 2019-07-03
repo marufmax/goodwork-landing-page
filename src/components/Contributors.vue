@@ -6,14 +6,14 @@
       </div>
 
       <div>
-        <div class="text-4xl text-grey-darker flex justify-center items-center pb-4">
+        <div class="text-4xl text-gray-700 flex justify-center items-center pb-4">
           <div>Contributors</div>
-          <div class="bg-indigo flex items-center justify-center align-bottom w-10 h-10 ml-2 rounded-full text-white text-base font-semibold">58+</div>
+          <div class="bg-indigo-500 flex items-center justify-center align-bottom w-10 h-10 ml-2 rounded-full text-white text-base font-semibold">58+</div>
         </div>
 
         <div class="flex flex-col items-center pb-4">
           <div class="border-2 border-dashed mb-2 py-2 px-16">
-            <div class="pb-2 text-xl text-grey-darker">Core Members</div>
+            <div class="pb-2 text-xl text-gray-700">Core Members</div>
             <div class="flex flex-row flex-wrap justify-center">
               <a :href="contributor.html_url" v-for="contributor of coreMembers" class="m-2 bg-white p-2 rounded-full flex items-center shadow-md" :title="contributor.login">
                   <img :src="contributor.avatar_url" alt="" class="w-16 h-16 rounded-full shadow-lg">
@@ -38,9 +38,9 @@
         </div>
 
         <div class="flex justify-center">
-          <a href="https://github.com/iluminar/goodwork/graphs/contributors" class="text-blue px-2">All Contributors</a>
-          <div class="border-r border-grey-dark"></div>
-          <a href="https://github.com/iluminar/goodwork/wiki/Contribution-Guideline" class="text-blue px-2">Start Contributing</a>
+          <a href="https://github.com/iluminar/goodwork/graphs/contributors" class="text-blue-700 px-2">All Contributors</a>
+          <div class="border-r border-gray-600"></div>
+          <a href="https://github.com/iluminar/goodwork/wiki/Contribution-Guideline" class="text-blue-700 px-2">Start Contributing</a>
         </div>
       </div>
 

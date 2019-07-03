@@ -4,7 +4,7 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
     
-    <h1 class="uppercase">Building solution for ̶r̶o̶b̶o̶t̶ human</h1>
+    <h1 class="uppercase text-5xl">Building solution for ̶r̶o̶b̶o̶t̶ human</h1>
 
   </Layout>
 </template>

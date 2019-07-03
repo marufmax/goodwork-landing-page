@@ -1,9 +1,9 @@
 <template>
 <div>
-  <navbar navbarBG="bg-blue-darkest"></navbar>
+  <navbar navbarBG="bg-white" shadow="true"></navbar>
   <div class="container mx-auto">
     <div class="flex flex-col justify-center items-center">
-      <div class="text-5xl text-teal-dark py-16">Page Under Construction</div>
+      <div class="text-5xl text-teal-500-600 py-16">Page Under Construction</div>
       <g-image src="~/assets/images/under_construction.svg" class="illustration"/>
     </div>
   </div>
