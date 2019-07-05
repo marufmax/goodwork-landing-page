@@ -2,11 +2,11 @@
   <nav :class="[{'shadow': shadow}, navbarBG]">
     <div class="flex flex-row justify-between items-center mx-2 md:mx-auto lg:max-w-4xl xl:max-w-6xl xxl:max-w-8xl h-16">
       <div class="flex flex-row items-center">
-        <a href="/goodwork">
+        <a href="/">
           <g-image src="~/assets/images/logo-white-bg.svg" class="h-10 w-10"/>
         </a>
-        <a href="/goodwork" class="hidden lg:block text-gray-700 text-2xl font-semibold pl-2 uppercase no-underline">Goodwork</a>
-        <div class="hidden lg:block bg-teal-200 ml-4 px-3 py-1 rounded-full text-teal-900 text-xs font-bold tracking-wide">v0.9</div>
+        <a href="/" class="hidden lg:block text-gray-700 text-2xl font-semibold pl-2 uppercase no-underline">Goodwork</a>
+        <a href="https://github.com/iluminar/goodwork/releases" class="hidden lg:block bg-teal-200 ml-4 px-3 py-1 rounded-full text-teal-900 text-xs font-bold tracking-wide">v0.9</a>
       </div>
 
       <div @click="showMobileMenu" class="pr-2 cursor-pointer lg:hidden">
@@ -20,18 +20,18 @@
             <div class="bg-white rounded shadow-indigo-xl py-2">
               <div class="w-2 h-2 mt-1 ml-4 bg-white absolute top-0 arrow"></div>
               <div class="flex flex-col">
-                <a href="/goodwork/how-it-works" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
+                <a href="/how-it-works" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 mr-2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
                   How It Works
                 </a>
-                <a href="/goodwork/features" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
+                <a href="/features" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
                   <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg>
                   Features
                 </a>
-                <g-link to="/goodwork/manifesto" class="no-underline flex items-center hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2">
+                <!-- <g-link to="/manifesto" class="no-underline flex items-center hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 mr-2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
                   Manifesto
-                </g-link>
+                </g-link> -->
               </div>
             </div>
           </div>
@@ -43,11 +43,11 @@
             <div class="bg-white rounded shadow-indigo-xl py-2">
               <div class="w-2 h-2 mt-1 bg-white absolute top-0 arrow"></div>
               <div class="flex flex-col">
-                <a href="https://github.com/iluminar/goodwork/wiki/Contribution-Guideline" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
+                <g-link to="/docs/contribution-guideline" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="w-4 mr-2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
                   Developer Guide
-                </a>
-                <g-link to="/goodwork/contributors" class="no-underline flex items-center hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2">
+                </g-link>
+                <g-link to="/contributors" class="no-underline flex items-center hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 mr-2"><circle cx="18" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><path d="M13 6h3a2 2 0 0 1 2 2v7"></path><line x1="6" y1="9" x2="6" y2="21"></line></svg>
                   Contributors
                 </g-link>
@@ -57,7 +57,7 @@
         </div>
 
 
-        <g-link to="/goodwork/sponsors" class="no-underline pl-4 pr-8 ">Sponsors</g-link>
+        <g-link to="/sponsors" class="no-underline pl-4 pr-8 ">Sponsors</g-link>
 
         <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="no-underline px-4 py-2 rounded font-semibold bg-indigo-600 text-white">Install</a>
 
@@ -72,11 +72,11 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
       </div>
       <div class="flex flex-col justify-center h-full px-6">
-        <g-link to="/goodwork/how-it-works" class="no-underline py-2 text-xl">How It Works</g-link>
-        <g-link to="/goodwork/features" class="no-underline py-2 text-xl">Features</g-link>
+        <g-link to="/how-it-works" class="no-underline py-2 text-xl">How It Works</g-link>
+        <g-link to="/features" class="no-underline py-2 text-xl">Features</g-link>
         <a href="https://github.com/iluminar/goodwork" class="no-underline py-2 text-xl">Developer Guide</a>
         <a href="https://github.com/iluminar/goodwork" class="no-underline py-2 text-xl">Contributors</a>
-        <g-link to="/goodwork/sponsors" class="no-underline py-2 text-xl">Sponsors</g-link>
+        <g-link to="/sponsors" class="no-underline py-2 text-xl">Sponsors</g-link>
         <a href="https://github.com/iluminar/goodwork" class="no-underline py-2 text-xl">Github</a>
       </div>
     </div>

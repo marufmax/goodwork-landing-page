@@ -13,8 +13,26 @@ module.exports = {
       options: {
         config: './tailwind.config.js'
       }
-    }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'docs/**/*.md',
+        typeName: 'Docs',
+        route: '/docs/:slug',
+      }
+    },
   ],
+  transformers: {
+    //Add markdown support to all file-system sources
+    remark: {
+      externalLinksTarget: '_blank',
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+      plugins: [
+        '@gridsome/remark-prismjs'
+      ]
+    }
+  },
   host: '0.0.0.0',
   port: 3000
 }

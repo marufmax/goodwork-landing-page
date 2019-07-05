@@ -9,9 +9,12 @@
     "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
+    "@gridsome/remark-prismjs": "^0.1.0",
+    "@gridsome/source-filesystem": "^0.5.0",
     "gridsome": "^0.6.0"
   },
   "devDependencies": {
+    "@gridsome/transformer-remark": "^0.3.2",
     "axios": "^0.19.0",
     "gridsome-plugin-tailwindcss": "^2.2.15"
   }

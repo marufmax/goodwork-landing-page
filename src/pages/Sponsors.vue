@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Navbar from './../../components/Navbar'
-import BottomFooter from './../../components/BottomFooter'
+import Navbar from './../components/Navbar'
+import BottomFooter from './../components/BottomFooter'
 export default {
   metaInfo: {
-    title: 'Features',
+    title: 'Sponsors',
     bodyAttrs: {
-      class: 'bg-indigo-100 font-display overflow-x-hidden'
+      class: 'bg-white font-display overflow-x-hidden'
     }
   },
   components: {BottomFooter, Navbar},

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import Navbar from './../../components/Navbar'
-import BottomFooter from './../../components/BottomFooter'
+import Navbar from './../components/Navbar'
+import BottomFooter from './../components/BottomFooter'
 export default {
   metaInfo: {
     title: 'Contributors',
