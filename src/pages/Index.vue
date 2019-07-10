@@ -21,6 +21,7 @@
             </div>
           </div>
           <div class=" lg:text-lg pt-2">
+            <div class="bg-teal-200 inline-block p-2 rounded text-teal-800 font-semibold mb-4">Goodwork is not an app, it's a sensible style of work.</div>
             <div class="">
               Adopting <span class="text-indigo-600">healthier work style</span> enables your team to build
             </div>

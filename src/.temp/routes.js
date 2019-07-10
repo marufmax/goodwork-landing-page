@@ -4,16 +4,16 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--contributors-vue" */ "/src/js/landing-page-src/src/pages/Contributors.vue")
   },
   {
-    path: "/how-it-works",
-    component: () => import(/* webpackChunkName: "page--src--pages--how-it-works-vue" */ "/src/js/landing-page-src/src/pages/HowItWorks.vue")
-  },
-  {
-    path: "/manifesto",
-    component: () => import(/* webpackChunkName: "page--src--pages--manifesto-vue" */ "/src/js/landing-page-src/src/pages/Manifesto.vue")
+    path: "/demo",
+    component: () => import(/* webpackChunkName: "page--src--pages--demo-vue" */ "/src/js/landing-page-src/src/pages/Demo.vue")
   },
   {
     path: "/features",
     component: () => import(/* webpackChunkName: "page--src--pages--features-vue" */ "/src/js/landing-page-src/src/pages/Features.vue")
+  },
+  {
+    path: "/how-it-works",
+    component: () => import(/* webpackChunkName: "page--src--pages--how-it-works-vue" */ "/src/js/landing-page-src/src/pages/HowItWorks.vue")
   },
   {
     name: "home",
@@ -22,6 +22,10 @@ export default [
     meta: {
       data: [1,"41c7eaf2"]
     }
+  },
+  {
+    path: "/manifesto",
+    component: () => import(/* webpackChunkName: "page--src--pages--manifesto-vue" */ "/src/js/landing-page-src/src/pages/Manifesto.vue")
   },
   {
     path: "/sponsors",
@@ -36,7 +40,7 @@ export default [
     path: "/docs/:slug",
     component: () => import(/* webpackChunkName: "page--src--templates--docs-vue" */ "/src/js/landing-page-src/src/templates/Docs.vue"),
     meta: {
-      data: [1,"d80eac44"]
+      data: [1,"7c5b5373"]
     }
   },
   {

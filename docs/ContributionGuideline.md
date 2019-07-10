@@ -1,8 +1,7 @@
 ---
+title: 'Contribution Guideline'
 slug: 'contribution-guideline'
 ---
-
-# Contribution Guideline
 
 ## Contribution prerequisites
 
@@ -13,6 +12,7 @@ slug: 'contribution-guideline'
 * Follow the coding style [Code Style](https://github.com/iluminar/goodwork/wiki/Contribution-Guideline#coding-style)
 
 > [Minimum Viable Pull Request](https://dev.to/jmfayard/the-minimum-viable-pull-request-5e7p)
+
 
 ## Git workflow
 

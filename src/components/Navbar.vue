@@ -20,14 +20,18 @@
             <div class="bg-white rounded shadow-indigo-xl py-2">
               <div class="w-2 h-2 mt-1 ml-4 bg-white absolute top-0 arrow"></div>
               <div class="flex flex-col">
-                <a href="/how-it-works" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
+                <!-- <a href="/how-it-works" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 mr-2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
                   How It Works
-                </a>
-                <a href="/features" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
+                </a> -->
+                <!-- <a href="/features" class="no-underline hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2 flex items-center">
                   <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg>
                   Features
-                </a>
+                </a> -->
+                <g-link to="/demo" class="no-underline flex items-center hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tv" class="w-4 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M592 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h245.1v32h-160c-17.7 0-32 14.3-32 32s14.3 32 32 32h384c17.7 0 32-14.3 32-32s-14.3-32-32-32h-160v-32H592c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h512v288z"></path></svg>
+                  Demo
+                </g-link>
                 <!-- <g-link to="/manifesto" class="no-underline flex items-center hover:bg-indigo-500 hover:text-white text-indigo-500 px-6 py-2">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 mr-2"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg>
                   Manifesto
@@ -37,7 +41,7 @@
           </div>
         </div>
 
-        <div class="px-4">
+        <div class="px-4 pr-8">
           <div id="developer-menu" class="cursor-default">Developers</div>
           <div id="developer-dropdown" class="absolute pt-2">
             <div class="bg-white rounded shadow-indigo-xl py-2">
@@ -56,8 +60,7 @@
           </div>
         </div>
 
-
-        <g-link to="/sponsors" class="no-underline pl-4 pr-8 ">Sponsors</g-link>
+        <!-- <g-link to="/sponsors" class="no-underline pl-4 pr-8 ">Sponsors</g-link> -->
 
         <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="no-underline px-4 py-2 rounded font-semibold bg-indigo-600 text-white">Install</a>
 

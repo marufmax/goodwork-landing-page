@@ -17,6 +17,12 @@
       <div class="py-1">
         3. Team should be small.
       </div>
+      <div class="py-1">
+        4. A team should not need a full time paid person to manage their work. The team should be able to manage their work by themeselves.
+      </div>
+      <div class="py-1">
+        5. Producing results not filling time sheets.
+      </div>
     </div>
   </div>
 </div>
