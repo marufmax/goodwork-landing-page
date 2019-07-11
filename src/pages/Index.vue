@@ -168,7 +168,7 @@
           <div class="text-2xl lg:text-4xl text-gray-700 pb-8">Join The Community</div>
           <div class="flex flex-col lg:flex-row">
             <a href="https://join.slack.com/t/iluminar/shared_invite/enQtNDY0Mzc3NDkwOTY1LTJhZTNiYmMxZmE4NGU5MTJhODI5OWMyNjc4ZmIyNDVhODRhMGUzNDU0MmM1OGRmZjBiYWM0NjcwNWRjMDJjNTA" class="no-underline bg-white text-pink-700 shadow px-4 py-3 mb-2 lg:mb-0 mx-2 rounded-full">Join Slack Community</a>
-            <a href="#" class="no-underline bg-white text-pink-700 shadow px-4 py-3 mx-2 rounded-full">Join Goodwork Project</a>
+            <a href="https://goodworkfor.life/register/invite-link/ovCPAFpnwIhrvqUrlvynarP9HVRBC5mH" class="no-underline bg-white text-pink-700 shadow px-4 py-3 mx-2 rounded-full">Join Goodwork Project</a>
           </div>
         </div>
       </section>
