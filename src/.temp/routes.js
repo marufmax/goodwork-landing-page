@@ -12,12 +12,12 @@ export default [
     component: () => import(/* webpackChunkName: "page--src--pages--faq-vue" */ "/src/js/landing-page-src/src/pages/FAQ.vue")
   },
   {
-    path: "/how-it-works",
-    component: () => import(/* webpackChunkName: "page--src--pages--how-it-works-vue" */ "/src/js/landing-page-src/src/pages/HowItWorks.vue")
-  },
-  {
     path: "/features",
     component: () => import(/* webpackChunkName: "page--src--pages--features-vue" */ "/src/js/landing-page-src/src/pages/Features.vue")
+  },
+  {
+    path: "/how-it-works",
+    component: () => import(/* webpackChunkName: "page--src--pages--how-it-works-vue" */ "/src/js/landing-page-src/src/pages/HowItWorks.vue")
   },
   {
     name: "home",

@@ -163,6 +163,44 @@
 
       <contributors></contributors>
 
+      <section class="py-16 bg-blue-100">
+        <div class="container mx-auto">
+          <div class="flex justify-center pb-8 text-teal-800 text-3xl font-semibold">
+            Pricing
+          </div>
+          <div class="flex justify-center">
+            <div class="w-96 bg-white rounded-l-lg shadow flex flex-col items-center justify-between p-8">
+              <div class="text-teal-700 uppercase font-semibold">
+                Self Hosted
+              </div>
+              <div class="text-5xl text-gray-700">
+                Free<span class="text-base">/Forever</span>
+              </div>
+              <div class="text-center text-gray-700 py-4 px-8">
+                For teams who wants to maintain everything by themselves.
+              </div>
+              <div>
+                <a href="https://github.com/iluminar/goodwork/wiki/Installation" class="flex justify-center items-center border-teal-700 border-2 px-6 py-3 rounded-full text-teal-700 text-lg hover:shadow-2xl font-semibold no-underline">Install Goodwork</a>
+              </div>
+            </div>
+            <div class="w-96 bg-white rounded-r-lg shadow flex flex-col items-center justify-between p-8">
+              <div class="text-indigo-600 uppercase font-semibold">
+                Managed Solution
+              </div>
+              <div class="text-5xl text-gray-700">
+                Custom
+              </div>
+              <div class="text-center text-gray-700 py-4 px-8">
+                Get your own individual hosted solution with full privacy of your data.
+              </div>
+              <div>
+                <a href="mailto:searching.nehal@gmail.com" class="flex justify-center items-center border-indigo-600 border-2 px-6 py-3 rounded-full text-indigo-600 text-lg hover:shadow-2xl font-semibold no-underline">Send a Query</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="w-full py-16">
         <div class="container mx-auto flex flex-col items-center">
           <div class="text-2xl lg:text-4xl text-gray-700 pb-8">Join The Community</div>

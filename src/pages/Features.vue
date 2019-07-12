@@ -143,6 +143,7 @@
         <g-image src="./../assets/images/f-3.png" class="rounded-lg shadow-2xl" />
       </div>
     </div>
+    <!-- Discussion Board -->
   </div>
 
   <bottom-footer></bottom-footer>
