@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Goodwork',
-  siteUrl: 'https://iluminar.github.io',
+  siteUrl: 'https://usegood.work',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
