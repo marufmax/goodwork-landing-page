@@ -1,3 +1,8 @@
+---
+title: 'Command Shortcuts'
+slug: 'command-shortcuts'
+---
+
 # Shortcuts for running commands
 
 *  [artisan](artisan-command)
