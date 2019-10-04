@@ -1,3 +1,8 @@
+---
+title: 'Installation Instructions'
+slug: 'installation-instructions'
+---
+
 [Installing through the single file installer](installing-through-the-single-file-installer)
 
 [Installing through Docker manually](installing-through-docker-manually)
